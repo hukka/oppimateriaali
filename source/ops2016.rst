@@ -1,0 +1,105 @@
+=================================================================================================
+OPS2016 ehdotus 15.10.2014 päättyneellä lausuntokierroksella matematiikan opetukseksi yläkoulussa
+=================================================================================================
+© `Opetushallitus <http://www.oph.fi/ops2016/perusteluonnokset>`_
+
+Tähän kappaleeseen OPS2016 teksti, jotta muualta dokumentista voi linkata helposti eri tavoitteisiin,
+sisältöihin ja arviointikriteereihin (jos niihin joskus tulee jotain olennaista).
+
+Tavoitteet
+----------
+
++------------+---------------------------------------------------------------------------------------------------+---------------+--------------------+
+| Tavoitteen | Opetuksen tavoitteet                                                                              | Tavoitteisiin | Laaja-alainen      |
+| numero     |                                                                                                   | liittyvät     | osaaminen, johon   |
+|            |                                                                                                   | sisältöalueet | tavoite liittyy    |
++============+===================================================================================================+===============+====================+
+| Merkitys, arvot ja asenteet                                                                                                                         |
++------------+---------------------------------------------------------------------------------------------------+---------------+--------------------+
+| T1         | vahvistaa oppilaan motivaatiota, positiivista minäkuvaa ja itseluottamusta matematiikan oppijana. | S10–S15       | L1, L3, L5         |
++------------+---------------------------------------------------------------------------------------------------+---------------+--------------------+
+| T2         | kannustaa oppilasta ottamaan vastuuta matematiikan oppimisesta sekä yksin että yhdessä toimien.   | S10–S15       | L3, L7             |
++------------+---------------------------------------------------------------------------------------------------+---------------+--------------------+
+| Työskentelyn taidot                                                                                                                                 |
++------------+---------------------------------------------------------------------------------------------------+---------------+--------------------+
+| T3         | vahvistaa oppilaan kykyä havaita ja ymmärtää oppimiensa asioiden välisiä yhteyksiä.               | S10–S15       | L1, L4             |
++------------+---------------------------------------------------------------------------------------------------+---------------+--------------------+
+| T4         | harjaannuttaa oppilasta täsmälliseen matemaattiseen ilmaisuun suullisesti ja kirjallisesti.       | S10–S15       | L1, L2, L4, L5     |
++------------+---------------------------------------------------------------------------------------------------+---------------+--------------------+
+| T5         | kehittää oppilaan taitoa ratkaista loogista ja luovaa ajattelua vaativia matemaattisia ongelmia.  | S10–S15       | L1, L3, L4, L5, L6 |
++------------+---------------------------------------------------------------------------------------------------+---------------+--------------------+
+| T6         | ohjaa oppilasta arvioimaan ja kehittämään matemaattisia ratkaisujaan sekä tarkastelemaan          |               |                    |
+|            | kriittisesti tuloksen mielekkyyttä.                                                               | S10–S15       | L1, L3, L4, L6     |
++------------+---------------------------------------------------------------------------------------------------+---------------+--------------------+
+| T7         | rohkaisee oppilasta soveltamaan matematiikkaa muissakin oppiaineissa ja ympäröivässä              |               |                    |
+|            | yhteiskunnassa.                                                                                   | S10–S15       | L1–L7              |
++------------+---------------------------------------------------------------------------------------------------+---------------+--------------------+
+| T8         | kehittää oppilaan tiedonhallinta- ja analysointitaitoja sekä ohjata oppilasta tiedon kriittiseen  |               |                    |
+|            | tarkasteluun.                                                                                     | S10, S13, S15 | L1, L4, L5         |
++------------+---------------------------------------------------------------------------------------------------+---------------+--------------------+
+| T9         | soveltaa tieto- ja viestintäteknologiaa matematiikan opiskelussa sekä ongelmien ratkaisemisessa.  | S10–S15       | L5                 |
++------------+---------------------------------------------------------------------------------------------------+---------------+--------------------+
+| Käsitteelliset ja tiedonalakohtaiset tavoitteet                                                                |               |                    |
++------------+---------------------------------------------------------------------------------------------------+---------------+--------------------+
+| T10        | vahvistaa päättely- ja päässälaskutaitoa sekä kannustaa oppilasta käyttämään laskutaitoaan eri    |               |                    |
+|            | tilanteissa.                                                                                      | S10, S11      | L1, L3, L4         |
++------------+---------------------------------------------------------------------------------------------------+---------------+--------------------+
+| T11        | vahvistaa oppilaan kykyä laskea peruslaskutoimituksia rationaaliluvuilla                          | S11           | L1, L4             |
++------------+---------------------------------------------------------------------------------------------------+---------------+--------------------+
+| T12        | laajentaa lukukäsitteen ymmärtämistä reaalilukuihin                                               | S11           | L1, L4             |
++------------+---------------------------------------------------------------------------------------------------+---------------+--------------------+
+| T13        | laajentaa oppilaan ymmärrystä prosenttilaskennasta                                                | S11, S15      | L1, L3, L6         |
++------------+---------------------------------------------------------------------------------------------------+---------------+--------------------+
+| T14        | ohjaa oppilasta ymmärtämään tuntemattoman käsitteen ja kehittää oppilaan yhtälönratkaisutaitoja   | S12, S13      | L1, L4             |
++------------+---------------------------------------------------------------------------------------------------+---------------+--------------------+
+| T15        | ohjaa oppilasta ymmärtämään muuttujan käsitteen ja tutustuttaa funktion käsitteeseen.             |               |                    |
+|            | Harjoittaa funktion kuvaajan tulkitsemista ja tuottamista.                                        | S12, S13      | L1, L4, L5         |
++------------+---------------------------------------------------------------------------------------------------+---------------+--------------------+
+| T16        | laajentaa oppilaan ymmärrystä geometrian käsitteistä ja niiden välisistä yhteyksistä.             | S14           | L1, L4, L5         |
++------------+---------------------------------------------------------------------------------------------------+---------------+--------------------+
+| T17        | ohjaa oppilasta ymmärtämään ja hyödyntämään suorakulmaiseen kolmioon ja ympyrään liittyviä        |               |                    |
+|            | ominaisuuksia.                                                                                    | S14           | L1, L4, L5         |
++------------+---------------------------------------------------------------------------------------------------+---------------+--------------------+
+| T18        | vahvistaa oppilaan taitoa laskea pinta- aloja ja tilavuuksia.                                     | S14           | L1, L4             |
++------------+---------------------------------------------------------------------------------------------------+---------------+--------------------+
+| T19        | ohjaa oppilasta määrittämään tilastollisia tunnuslukuja ja laskemaan todennäköisyyksiä            | S15           | L3, L4, L5         |
++------------+---------------------------------------------------------------------------------------------------+---------------+--------------------+
+| T20        | harjoittaa oppilaan algoritmista ajattelua sekä taitoa soveltaa matematiikkaa                     |               |                    |
+|            | ja ohjelmointia ongelmien ratkaisemiseen                                                          | S10           | L1, L4, L5, L6     |
++------------+---------------------------------------------------------------------------------------------------+---------------+--------------------+
+
+
+
+Keskeiset sisältöalueet
+-----------------------
+S10 Ajattelun taidot ja menetelmät
+**********************************
+Harjoitellaan loogista ajattelua vaativia toimintoja kuten sääntöjen ja riippuvuuksien etsimistä ja esittämistä täsmällisesti. Opitaan määrittämään vaihtoehtojen lukumääriä. Vahvistetaan oppilaan päättelykykyä ja taitoa perustella. Harjoitellaan matemaattisen tekstin tulkitsemista ja tuottamista. Tutustutaan todistamisen perusteisiin. Harjoitellaan väitelauseiden totuusarvon päättelyä. Syvennetään algoritmista ajattelua. Ohjelmoidaan ja samalla harjoitellaan hyviä ohjelmointikäytäntöjä. Sovelletaan itse tehtyjä ja valmiita tietokoneohjelmia osana matematiikan opiskelua.
+
+S11 Luvut ja laskutoimitukset
+*****************************
+Harjoitellaan peruslaskutoimituksia myös negatiivisilla luvuilla. Vahvistetaan laskutaitoa murtoluvuilla ja opitaan murtoluvun kertominen ja jakaminen murtoluvulla. Tutustutaan vastaluvun, käänteisluvun ja itseisarvon käsitteisiin. Lukualuetta laajennetaan reaalilukuihin. Perehdytään lukujen jaollisuuteen ja opitaan jakamaan luku alkutekijöihin. Syvennetään desimaalilukujen laskutoimituksien osaamista. Vahvistetaan ymmärrystä tarkan arvon ja likiarvon erosta sekä pyöristämisestä. Varmistetaan prosentin käsitteen ymmärrys. Harjoitellaan prosenttiosuuden laskemista ja prosenttiluvun osoittama määrän laskemista kokonaisuudesta. Lisäksi opitaan laskemaan muuttunut arvo, perusarvo sekä muutos- ja vertailuprosentti. Harjoitellaan potenssilaskentaa, kun eksponenttina on kokonaisluku. Opitaan neliöjuuren käsite ja käytetään neliöjuurta laskutoimituksissa.
+
+S12 Algebra
+***********
+Perehdytään muuttujan käsitteeseen ja lausekkeen arvon laskemiseen. Harjoitellaan potenssilausekkeiden sieventämistä. Tutustutaan polynomin käsitteeseen ja harjoitellaan polynomien yhteen-, vähennys- ja kertolaskua. Harjoitellaan muodostamaan lausekkeita ja sieventämään niitä. Muodostetaan ja ratkaistaan ensimmäisen asteen yhtälöitä ja vaillinaisia toisen asteen yhtälöitä. Ratkaistaan yhtälöpareja graafisesti ja algebrallisesti. Tutustutaan ensimmäisen asteen epäyhtälöihin ja ratkaistaan niitä. Syvennetään oppilaan taitoa tutkia ja muodostaa lukujonoja. Käytetään verrantoa tehtävien ratkaisussa.
+
+S13 Funktiot
+************
+Opitaan kuvaamaan riippuvuuksia sekä graafisesti että algebrallisesti. Tutustutaan suoraan ja kääntäen verrannollisuuteen. Perehdytään funktion käsitteeseen. Piirretään suoria ja paraabeleja koordinaatistoon. Opitaan suoran kulmakertoimen ja vakiotermin käsitteet. Tulkitaan kuvaajia esimerkiksi tutkimalla funktion kasvamista ja vähenemistä. Opitaan määrittämään funktioiden nollakohtia.
+
+S14 Geometria
+*************
+Laajennetaan pisteen, viivan, janan, puolisuoran, suoran ja kulman käsitteiden ymmärtämistä. Tutkitaan suoriin, kulmiin ja monikulmioihin liittyviä ominaisuuksia. Vahvistetaan yhdenmuotoisuuden ja yhtenevyyden käsitteiden ymmärtämistä. Harjoitellaan geometrista konstruointia. Opitaan käyttämään Pythagoraan lausetta, Pythagoraan käänteislausetta ja trigonometrisia funktioita. Opitaan kehä- ja keskuskulma sekä tutustutaan Thaleen lauseeseen.
+
+Lasketaan monikulmioiden piirejä ja pinta-aloja.
+
+Opitaan laskemaan ympyrän kehän pituus ja pinta-ala. Lisäksi opitaan laskemaan ympyrän kaaren pituus ja sektorin pinta-ala.
+
+Tutkitaan kolmiulotteisia kappaleita. Opitaan laskemaan pallon, lieriön ja kartion pinta-ala ja tilavuus.
+
+Varmennetaan ja laajennetaan mittayksiköiden ja yksikkömuunnosten hallintaa.
+
+S15 Tietojen käsittely ja tilastot sekä todennäköisyys
+******************************************************
+Syvennetään oppilaan taitoja kerätä, jäsentää ja analysoida tietoa. Varmistetaan keskiarvon ja tyyppiarvon ymmärtäminen. Opitaan määrittämään frekvenssi, suhteellinen frekvenssi ja mediaani. Tutustutaan hajonnan käsitteeseen. Opitaan tulkitsemaan ja tuottamaan erilaisia diagrammeja. Opitaan laskemaan todennäköisyyksiä.
