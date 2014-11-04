@@ -1,9 +1,10 @@
 Animaatiot
 ==========
+Yksinkertainen animaatio yhteen suuntaan yhdellä kappaleella
+(maailmaksi riittää yksinkertainen datatyyppi).
 
 ::
 
     (big-bang maailma
               (on-tick tick-expr)
-              (on-key key-expr)
               (to-draw draw-expr))
