@@ -6,6 +6,8 @@ OPS2016 ehdotus 15.10.2014 päättyneellä lausuntokierroksella matematiikan ope
 Tähän kappaleeseen OPS2016 teksti, jotta muualta dokumentista voi linkata helposti eri tavoitteisiin,
 sisältöihin ja arviointikriteereihin (jos niihin joskus tulee jotain olennaista).
 
+.. _ops-tavoitteet:
+
 Tavoitteet
 ----------
 
@@ -69,24 +71,35 @@ Tavoitteet
 +------------+---------------------------------------------------------------------------------------------------+---------------+--------------------+
 
 
+.. _ops-sisällöt:
 
 Keskeiset sisältöalueet
 -----------------------
+.. _S10:
+
 S10 Ajattelun taidot ja menetelmät
 **********************************
 Harjoitellaan loogista ajattelua vaativia toimintoja kuten sääntöjen ja riippuvuuksien etsimistä ja esittämistä täsmällisesti. Opitaan määrittämään vaihtoehtojen lukumääriä. Vahvistetaan oppilaan päättelykykyä ja taitoa perustella. Harjoitellaan matemaattisen tekstin tulkitsemista ja tuottamista. Tutustutaan todistamisen perusteisiin. Harjoitellaan väitelauseiden totuusarvon päättelyä. Syvennetään algoritmista ajattelua. Ohjelmoidaan ja samalla harjoitellaan hyviä ohjelmointikäytäntöjä. Sovelletaan itse tehtyjä ja valmiita tietokoneohjelmia osana matematiikan opiskelua.
+
+.. _S11:
 
 S11 Luvut ja laskutoimitukset
 *****************************
 Harjoitellaan peruslaskutoimituksia myös negatiivisilla luvuilla. Vahvistetaan laskutaitoa murtoluvuilla ja opitaan murtoluvun kertominen ja jakaminen murtoluvulla. Tutustutaan vastaluvun, käänteisluvun ja itseisarvon käsitteisiin. Lukualuetta laajennetaan reaalilukuihin. Perehdytään lukujen jaollisuuteen ja opitaan jakamaan luku alkutekijöihin. Syvennetään desimaalilukujen laskutoimituksien osaamista. Vahvistetaan ymmärrystä tarkan arvon ja likiarvon erosta sekä pyöristämisestä. Varmistetaan prosentin käsitteen ymmärrys. Harjoitellaan prosenttiosuuden laskemista ja prosenttiluvun osoittama määrän laskemista kokonaisuudesta. Lisäksi opitaan laskemaan muuttunut arvo, perusarvo sekä muutos- ja vertailuprosentti. Harjoitellaan potenssilaskentaa, kun eksponenttina on kokonaisluku. Opitaan neliöjuuren käsite ja käytetään neliöjuurta laskutoimituksissa.
 
+.. _S12:
+
 S12 Algebra
 ***********
 Perehdytään muuttujan käsitteeseen ja lausekkeen arvon laskemiseen. Harjoitellaan potenssilausekkeiden sieventämistä. Tutustutaan polynomin käsitteeseen ja harjoitellaan polynomien yhteen-, vähennys- ja kertolaskua. Harjoitellaan muodostamaan lausekkeita ja sieventämään niitä. Muodostetaan ja ratkaistaan ensimmäisen asteen yhtälöitä ja vaillinaisia toisen asteen yhtälöitä. Ratkaistaan yhtälöpareja graafisesti ja algebrallisesti. Tutustutaan ensimmäisen asteen epäyhtälöihin ja ratkaistaan niitä. Syvennetään oppilaan taitoa tutkia ja muodostaa lukujonoja. Käytetään verrantoa tehtävien ratkaisussa.
 
+.. _S13:
+
 S13 Funktiot
 ************
 Opitaan kuvaamaan riippuvuuksia sekä graafisesti että algebrallisesti. Tutustutaan suoraan ja kääntäen verrannollisuuteen. Perehdytään funktion käsitteeseen. Piirretään suoria ja paraabeleja koordinaatistoon. Opitaan suoran kulmakertoimen ja vakiotermin käsitteet. Tulkitaan kuvaajia esimerkiksi tutkimalla funktion kasvamista ja vähenemistä. Opitaan määrittämään funktioiden nollakohtia.
+
+.. _S14:
 
 S14 Geometria
 *************
@@ -99,6 +112,8 @@ Opitaan laskemaan ympyrän kehän pituus ja pinta-ala. Lisäksi opitaan laskemaa
 Tutkitaan kolmiulotteisia kappaleita. Opitaan laskemaan pallon, lieriön ja kartion pinta-ala ja tilavuus.
 
 Varmennetaan ja laajennetaan mittayksiköiden ja yksikkömuunnosten hallintaa.
+
+.. _S15:
 
 S15 Tietojen käsittely ja tilastot sekä todennäköisyys
 ******************************************************
