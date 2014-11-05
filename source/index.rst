@@ -39,6 +39,7 @@ Ohjelmoinnin sovelluksia:
    ympyrä
    musiikkia
    salasanat
+   alkuluvut
 
 
 Ideoita
