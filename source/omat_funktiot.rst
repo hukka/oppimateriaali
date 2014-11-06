@@ -3,5 +3,5 @@ Omat funktiot
 
 ::
 
-    (define (funktion-nimi argumentti toinen-argumentti)
+    (define (funktion-nimi parametri toinen-parametri)
         ...)

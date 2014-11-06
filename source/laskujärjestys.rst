@@ -5,7 +5,7 @@ Peruslaskut Racketillä
 ----------------------
 
 Racketissä kaikki funktiokutsut, eli komennot, kirjoitetaan sulkujen sisään.
-Ensimmäiseksi tulee aina funktion nimi ja sen jälkeen välilyönnillä erotellut argumentit,
+Ensimmäiseksi tulee aina funktion nimi ja sen jälkeen välilyönnillä erotellut :term:`argumentit <argumentti>`,
 eli funktiolle annettavat arvot.
 
 Esimerkiksi :math:`2+3` kirjoitetaan :code:`(+ 2 3)`.
@@ -27,7 +27,7 @@ Laske Racketillä:
 
 Moniosaiset laskut Racketillä
 -----------------------------
-Funktion parametri voi olla myös toinen funktiokutsu, jonka lopputulos on luku.
+Funktion :term:`parametri` voi olla myös toinen funktiokutsu, jonka lopputulos on luku.
 
 Esimerkiksi :math:`5 + 15:3` kirjoitetaan :code:`(+ 5 (/ 15 3))`.
 
@@ -59,3 +59,8 @@ Laske:
     15 - (10 - [12 - (4 + 6)]) \\
     ([25 - (9 + 6)]· 4 - 10) : (36 : 12)
     \end{gather}
+
+.. todo::
+
+    Eri virhetilanteiden kokeiluja: puuttuva sulku, liikaa sulkuja,
+    (1), väärä funktion nimi jne.
