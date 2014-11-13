@@ -41,6 +41,9 @@ Tekijöihin jako ja alkuluvut
 
 .. todo:: Kommentoitu versio ja vertailu helppolukuisuudesta
 
-.. todo:: Nopeampi versio, joka tarkistaa vain neliöjuureen asti
+.. todo:: Nopeampi versio, joka tarkistaa vain neliöjuureen asti,
+          ja kolmas joka tarkistaa jakamalla aikaisemmilla alkuluvuilla
+
+.. todo:: Katsoa wikipediasta oikeasti nopea algoritmi
 
 .. todo:: Vertailu kertolaskun ja tekijöiden etsimisen nopeudesta: RSA

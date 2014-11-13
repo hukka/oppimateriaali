@@ -30,7 +30,7 @@ Ohjelmoinnin käsitteitä (esitietovaatimuksia):
    omat_funktiot
    animaatiot-1
    ehtolauseet
-   testaus
+   suunnittelu
    structit
    interaktiivisuus
    listat
@@ -49,6 +49,7 @@ Ohjelmoinnin sovelluksia:
    musiikkia
    salasanat
    alkuluvut
+   dataa-netistä
 
 
 Ideoita
@@ -63,7 +64,9 @@ Ideoita
   Pythagoras kaikissa etäisyyttä vaativissa 2D- ja 3D-animaatioissa
 - "Syvennetään oppilaan taitoa tutkia ja muodostaa lukujonoja."
   Fibonacci
-- Jonkinlainen tehtävä, jossa ohjelma hakee automaattisesti dataa webistä
+- Livecoding-moduuli extemporella (musiikki)
+- Livecoding-moduuli fluxuksella
+- Robottimoduuli EV3:lla
 
 
 Indices and tables
