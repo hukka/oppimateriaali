@@ -12,10 +12,15 @@ Yläkoulun ohjelmointia!
 
 .. todo::
 
-    Racketille oma Sphinx-domain, jotta peruskomennot linkittyisi suoraan docs.racket-lang.orgiin:
-    (http://docs.racket-lang.org/search/index.html?q=scene%20O:{%20L:lang/htdp-beginner%20M:2htdp%20}).
-    https://bitbucket.org/klorenz/sphinxcontrib-domaintools varmaankin auttaa.
-    Voi olla, että vaatii ctags-tuen Racketille pygmentsin kautta.
+    Racketin builtinit saisi linkattua dokkareihin käyttämällä
+    pygmentsin formatteria, joka wrappaisi lexeriltä tulevat keywordit
+    anchoreiksi ja antaisi ne vasta sitten eteenpäin tavalliselle
+    HtmlFormatterille.
+
+    Mikäli haluaisi vielä viilata tarkemmin, pitäisi tehdä uusi
+    lexeri, jossa keywordit ja builtinit olisi korvattu BSL:n
+    vastaavilla muokkaamalla tests/examplefiles/example.rkt ulostuloa
+
 
 Ohjelmoinnin käsitteitä (esitietovaatimuksia):
 
@@ -26,7 +31,7 @@ Ohjelmoinnin käsitteitä (esitietovaatimuksia):
    miksi-koodata
    ops2016
    perusasiat
-   laskujärjestys
+   laskujarjestys
    omat_funktiot
    animaatiot-1
    ehtolauseet
