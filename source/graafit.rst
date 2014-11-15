@@ -5,6 +5,8 @@ Vaatii :samp:`Intermediate Student`-kielen.
 
 Vaatii :doc:`paikalliset_maaritelmat`.
 
+.. todo:: Ensin animoimaton versio
+
 ::
 
     (require 2htdp/universe)
@@ -46,3 +48,28 @@ Vaatii :doc:`paikalliset_maaritelmat`.
     (big-bang 0
         [to-draw draw]
         [on-tick step])
+
+1. tehtävä
+----------
+Miten tekisit seuraavat funktiot
+
+.. math::
+
+    \begin{gather}
+    f_1(x) = \sin x^4\\
+    f_2(x) = \sin e^x\\
+    f_3(x) = \tan x\\
+    f_4(x) = \sin \frac{1}{x}\\
+    \end{gather}
+
+.. todo::
+
+    Antaako valmiina vastauksena::
+
+        (λ (x) (sin (expt x 4)))
+        (λ (x) (sin (exp x)))
+        (λ (x) (tan x))
+        (λ (x) (sin (/ x)))
+
+    Pitäisikö varottaa, että tan räjähtää äärettömään ja viimeisestä tulee jako nollalla,
+    vaiko jättää oppimiskokemukseksi?
