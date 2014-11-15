@@ -57,6 +57,7 @@ Ohjelmoinnin sovelluksia:
    alkuluvut
    dataa-netista
    graafit
+   lukujonot
 
 
 Ideoita
@@ -69,8 +70,6 @@ Ideoita
   Jakolaskuja muilla kuin kahdella ja viidellä, ja sitten takaisin kertomista.
 - "Opitaan neliöjuuren käsite ja käytetään neliöjuurta laskutoimituksissa"
   Pythagoras kaikissa etäisyyttä vaativissa 2D- ja 3D-animaatioissa
-- "Syvennetään oppilaan taitoa tutkia ja muodostaa lukujonoja."
-  Fibonacci
 - Livecoding-moduuli extemporella (musiikki)
 - Livecoding-moduuli fluxuksella
 - Robottimoduuli EV3:lla
