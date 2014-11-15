@@ -3,9 +3,11 @@ Funktioiden piirtäminen graafeiksi
 
 Vaatii :samp:`Intermediate Student`-kielen.
 
-Vaatii :doc:`paikalliset_maaritelmat`.
+Vaatii :doc:`ehtolauseet`, :doc:`rekursio`, :doc:`paikalliset_maaritelmat`.
 
 .. todo:: Ensin animoimaton versio
+
+.. todo:: Sopivan step-sizen etsintä
 
 ::
 
@@ -14,8 +16,8 @@ Vaatii :doc:`paikalliset_maaritelmat`.
 
     (define WIDTH 600)
     (define HEIGHT 600)
-    (define MAX_Y 1.4)
     (define MAX_X 5)
+    (define MAX_Y 1.4)
 
 
     (define (draw world)
@@ -73,3 +75,33 @@ Miten tekisit seuraavat funktiot
 
     Pitäisikö varottaa, että tan räjähtää äärettömään ja viimeisestä tulee jako nollalla,
     vaiko jättää oppimiskokemukseksi?
+
+
+Monen funktion plottaus
+-----------------------
+::
+
+    (define (draw world)
+        (local ((define (f x) (sin (+ x world)))
+                (define (g x) (cos (+ x world))))
+               (plot g (- MAX_X) 0.1
+                     (plot f (- MAX_X) 0.2 (empty-scene WIDTH HEIGHT)))))
+
+
+Kahden yhteenlasketun funktion plottaus
+---------------------------------------
+::
+
+    (define MAX_Y 2.4)
+
+    (define (draw world)
+      (local ((define (f x) (sin (+ x world)))
+              (define (g x) (sin (* 2(+ x world))))
+              (define (h x) (+ (f x) (g x))))
+        (plot h (- MAX_X) 0.2 (empty-scene WIDTH HEIGHT))))
+
+2. tehtävä
+----------
+Piirrä myös x- ja y-akselit ja niiden asteikot.
+
+.. todo:: Asteikko? Jakomerkit? Mikä on oikea termi. Ticks englanniksi.
