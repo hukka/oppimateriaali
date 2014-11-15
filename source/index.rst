@@ -40,6 +40,7 @@ Ohjelmoinnin käsitteitä (esitietovaatimuksia):
    interaktiivisuus
    listat
    rekursio
+   paikalliset_maaritelmat
 
 
 Ohjelmoinnin sovelluksia:
@@ -55,6 +56,7 @@ Ohjelmoinnin sovelluksia:
    salasanat
    alkuluvut
    dataa-netistä
+   graafit
 
 
 Ideoita
