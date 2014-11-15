@@ -74,6 +74,11 @@ Ideoita
 - Livecoding-moduuli extemporella (musiikki)
 - Livecoding-moduuli fluxuksella
 - Robottimoduuli EV3:lla
+- binäärihaku, esimerkiksi funktion nollakohdalle
+- jotain numeeristä integrointia trapezoideilla?
+- Jokin graafi ja siinä haku? Vaikka paikkakuntien etäisyydet ja reitin etsintä.
+  Tai graafinmuodostusta jopa... vaikka shakkitehtävä siirroista?
+- https://projecteuler.net/problems
 
 
 Indices and tables

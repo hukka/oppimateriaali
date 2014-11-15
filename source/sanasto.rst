@@ -74,8 +74,7 @@ Sanasto
     muuttuja
 
     scope
-    käyttöala
-    ala
+    näkyvyysalue
 
     global
     yleinen (globaali, ohjelman laajuinen, yleis-?)
@@ -84,10 +83,10 @@ Sanasto
     paikallinen
 
     closure
-    suljin/sulkeminen
+    sulkeuma
 
     struct
-    tietue (oikeastaan record), yhdistelmätietotyyppi (uaagh)?
+    tietue
 
     hash table/array
     hajautustaulu
@@ -100,3 +99,15 @@ Sanasto
 
     macro
     makro
+
+    interpreter
+    tulkki
+
+    compiler
+    kääntäjä
+
+    type
+    tyyppi
+
+    definition
+    määritelmä
