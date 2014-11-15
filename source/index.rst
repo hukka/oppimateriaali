@@ -55,7 +55,7 @@ Ohjelmoinnin sovelluksia:
    musiikkia
    salasanat
    alkuluvut
-   dataa-netistä
+   dataa-netista
    graafit
 
 
