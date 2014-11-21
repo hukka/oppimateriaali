@@ -37,7 +37,7 @@ Merkistökoodaukset
 Koska kaikki tietokoneen sisällä oleva tieto on tavuihin jaettuja bittejä,
 myös teksti täytyy esittää jollain lailla binäärinumeroina.
 Sopimusta mikä numero vastaa mitäkin kirjainta sanotaan
-:term:`merkistökoodaukseksi <merkistökoodaus`.
+:term:`merkistökoodaukseksi <merkistökoodaus>`.
 
 Vanhin tietokoneissa käytetty merkistökoodaus on ASCII.
 Siinä jokaista kirjainta, kuten myös erikoismerkkiä,

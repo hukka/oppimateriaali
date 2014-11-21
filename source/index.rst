@@ -21,6 +21,17 @@ Yläkoulun ohjelmointia!
     lexeri, jossa keywordit ja builtinit olisi korvattu BSL:n
     vastaavilla muokkaamalla tests/examplefiles/example.rkt ulostuloa
 
+.. todo::
+
+    Linkit tehtävistä yms. aiheista OPS:n. Jokin systeemi,
+    jolla taas OPS-osassa näkee mitkä tehtävät kattavat minkäkin kohdan,
+    ja mitä jää kattamatta.
+
+.. todo::
+
+    Graafi, josta näkee missä järjestyksessä kappaleet pitää käydä.
+    Esim. Gephi voi saattaa tehdä nättejä, jos Graphviziä ei saa säädettyä.
+
 
 Ohjelmoinnin käsitteitä (esitietovaatimuksia):
 
@@ -32,16 +43,24 @@ Ohjelmoinnin käsitteitä (esitietovaatimuksia):
    ops2016
    perusasiat
    laskujarjestys
-   omat_funktiot
-   animaatiot-1
    ehtolauseet
-   suunnittelu
+   vakiot
+   omat_funktiot
+   funktioiden_suunnittelu
+   tiedostot-1
+   animaatiot-1
    structit
    interaktiivisuus
    listat
+   tiedostot-2
    rekursio
+   lambda_ja_funktiot_parametreina
+   puut_ja_graafit
    paikalliset_maaritelmat
+   muuttujat_ja_silmukat
+   sivuvaikutukset
 
+.. todo:: Onko tiedostojen käsittely ydinkonsepti vai sovellus?
 
 Ohjelmoinnin sovelluksia:
 
@@ -56,7 +75,7 @@ Ohjelmoinnin sovelluksia:
    salasanat
    alkuluvut
    dataa-netista
-   graafit
+   funktion_kuvaajat
    lukujonot
 
 
@@ -78,6 +97,7 @@ Ideoita
 - Jokin graafi ja siinä haku? Vaikka paikkakuntien etäisyydet ja reitin etsintä.
   Tai graafinmuodostusta jopa... vaikka shakkitehtävä siirroista?
 - https://projecteuler.net/problems
+- Vaikeaa, mutta parseri joka ymmärtää polynomeja
 
 
 Indices and tables

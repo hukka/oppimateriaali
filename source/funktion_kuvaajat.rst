@@ -1,4 +1,4 @@
-Funktioiden piirtäminen graafeiksi
+Funktioiden piirtäminen kuvaajiksi
 ==================================
 
 Vaatii :samp:`Intermediate Student`-kielen.
@@ -38,11 +38,11 @@ Vaatii :doc:`ehtolauseet`, :doc:`rekursio`, :doc:`paikalliset_maaritelmat`.
 
     (define (scale-x value)
         (+ (* (/ value 2 MAX_X) WIDTH)
-        (/ WIDTH 2)))
+           (/ WIDTH 2)))
 
     (define (scale-y value)
-        (+ (* (/ value 2 MAX_Y) HEIGHT)
-        (/ HEIGHT 2)))
+        (+ (* -1 (/ value 2 MAX_Y) HEIGHT)
+           (/ HEIGHT 2)))
 
     (define (step world)
         (+ world 0.1))
@@ -53,11 +53,13 @@ Vaatii :doc:`ehtolauseet`, :doc:`rekursio`, :doc:`paikalliset_maaritelmat`.
 
 1. tehtävä
 ----------
-Miten tekisit seuraavat funktiot
+Miten tekisit seuraavat funktiot? Huomaa, että joudut säätämään y:n maksimirajaa, jotta kuva piirtyy oikein.
 
 .. math::
 
     \begin{gather}
+    y = 2x
+    y = x^2
     f_1(x) = \sin x^4\\
     f_2(x) = \sin e^x\\
     f_3(x) = \tan x\\
@@ -68,6 +70,8 @@ Miten tekisit seuraavat funktiot
 
     Antaako valmiina vastauksena::
 
+        (λ (x) (* 2 (+ x world)))
+        (λ (x) (expt (+ x world) 2))
         (λ (x) (sin (expt x 4)))
         (λ (x) (sin (exp x)))
         (λ (x) (tan x))
