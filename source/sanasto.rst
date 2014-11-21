@@ -16,98 +16,135 @@ Sanasto
 
     recursion
     rekursio
+        TODO
 
     tail-recursion
     häntärekursio
+        TODO
 
     function
     funktio
+        TODO
 
     boolean
+        TODO
 
     float
     liukuluku
+        TODO
 
     bit
     bitti
+        TODO
+
+    byte
+    tavu
+        TODO
 
     binary
     binääri
+        TODO
 
     hexdecimal
     heksadesimaali
-
-    array
-    taulukko
-
-    stack
-    pino
-
-    heap
-    keko
+        TODO
 
     list
     lista
+        TODO
 
     (singly) linked list
     linkitetty lista
+        TODO
+
+    array
+    taulukko
+        TODO
+
+    stack
+    pino
+        TODO
+
+    heap
+    keko
+        TODO
 
     tree
     puu
+        TODO
 
     graph
     graafi
+        TODO
 
     string
     merkkijono
+        TODO
 
     string/text encoding
     merkistökoodaus
+        TODO
 
     library
     kirjasto
+        TODO
 
     constant
     vakio
+        TODO
 
     variable
     muuttuja
+        TODO
 
     scope
     näkyvyysalue
+        TODO
 
     global
     yleinen (globaali, ohjelman laajuinen, yleis-?)
+        TODO
 
     local
     paikallinen
+        TODO
 
     closure
     sulkeuma
+        TODO
 
     struct
     tietue
+        TODO
 
     hash table/array
     hajautustaulu
+        TODO
 
     hash function
     hajautusfunktio
+        TODO
 
     tuple
     monikko
+        TODO
 
     macro
     makro
+        TODO
 
     interpreter
     tulkki
+        TODO
 
     compiler
     kääntäjä
+        TODO
 
     type
     tyyppi
+        TODO
 
     definition
     määritelmä
+        TODO
