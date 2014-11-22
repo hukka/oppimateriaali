@@ -59,6 +59,7 @@ Ohjelmoinnin käsitteitä (esitietovaatimuksia):
    paikalliset_maaritelmat
    muuttujat_ja_silmukat
    sivuvaikutukset
+   algoritmien_vaativuus
 
 .. todo:: Onko tiedostojen käsittely ydinkonsepti vai sovellus?
 
@@ -94,8 +95,7 @@ Ideoita
 - Robottimoduuli EV3:lla
 - binäärihaku, esimerkiksi funktion nollakohdalle
 - jotain numeeristä integrointia trapezoideilla?
-- Jokin graafi ja siinä haku? Vaikka paikkakuntien etäisyydet ja reitin etsintä.
-  Tai graafinmuodostusta jopa... vaikka shakkitehtävä siirroista?
+- Graafihaku vaikka shakkitehtävä siirroista?
 - https://projecteuler.net/problems
 - Vaikeaa, mutta parseri joka ymmärtää polynomeja
 

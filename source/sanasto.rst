@@ -77,6 +77,14 @@ Sanasto
     graafi
         TODO
 
+    vertex
+    solmu
+        TODO
+
+    edge
+    kaari
+        TODO
+
     string
     merkkijono
         TODO
