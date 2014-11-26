@@ -52,9 +52,8 @@ Ohjelmoinnin käsitteitä (esitietovaatimuksia):
    animaatiot-1
    structit
    interaktiivisuus
-   listat
+   listat_ja_rekursio
    tiedostot-2
-   rekursio
    algoritmit
    lambda_ja_funktiot_parametreina
    puut_ja_graafit

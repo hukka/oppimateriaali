@@ -3,7 +3,7 @@ Funktioiden piirtäminen kuvaajiksi
 
 Vaatii :samp:`Intermediate Student`-kielen.
 
-Vaatii :doc:`ehtolauseet`, :doc:`rekursio`, :doc:`paikalliset_maaritelmat`.
+Vaatii :doc:`ehtolauseet`, :doc:`listat_ja_rekursio`, :doc:`paikalliset_maaritelmat`.
 
 .. todo:: Ensin animoimaton versio
 
