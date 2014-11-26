@@ -1,8 +1,3 @@
-.. Yläkoulun ohjelmointia master file, created by
-   sphinx-quickstart on Sun Nov  2 16:08:59 2014.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
 Yläkoulun ohjelmointia!
 =======================
 
@@ -32,6 +27,11 @@ Yläkoulun ohjelmointia!
     Graafi, josta näkee missä järjestyksessä kappaleet pitää käydä.
     Esim. Gephi voi saattaa tehdä nättejä, jos Graphviziä ei saa säädettyä.
 
+.. todo:: Muuta tehtävät containeriksi, tee sille CSS
+
+.. todo:: Algoritmisen ajattelun käsittely
+
+.. todo:: Ohjelmoijien metakognitiiviset prosessit? Miten lähteä luomaan ohjelmaa. Design recipe auttaa, mutta ei välttämättä tarpeeksi.
 
 Ohjelmoinnin käsitteitä (esitietovaatimuksia):
 
@@ -40,6 +40,7 @@ Ohjelmoinnin käsitteitä (esitietovaatimuksia):
 
    sanasto
    miksi-koodata
+   miksi-opettaa-talla
    ops2016
    perusasiat
    laskujarjestys
@@ -54,6 +55,7 @@ Ohjelmoinnin käsitteitä (esitietovaatimuksia):
    listat
    tiedostot-2
    rekursio
+   algoritmit
    lambda_ja_funktiot_parametreina
    puut_ja_graafit
    paikalliset_maaritelmat
@@ -84,10 +86,7 @@ Ideoita
 
 - Luvun ja numeron ero, 5 ja V ovat samoja lukuja, mutta eri kirjoitusjärjestelmän
   numeroita. Racketissä 42 ja "42" tarkoittavat lukua ja numeroista koostuvaa tekstiä.
-- "Perehdytään lukujen jaollisuuteen ja opitaan jakamaan luku alkutekijöihin"
-  Tehdään ohjelma, joka etsii alkulukuja ja jakaa lukuja tekijöihinsä
 - "Vahvistetaan ymmärrystä tarkan arvon ja likiarvon erosta sekä pyöristämisestä."
-  Jakolaskuja muilla kuin kahdella ja viidellä, ja sitten takaisin kertomista.
 - "Opitaan neliöjuuren käsite ja käytetään neliöjuurta laskutoimituksissa"
   Pythagoras kaikissa etäisyyttä vaativissa 2D- ja 3D-animaatioissa
 - Livecoding-moduuli extemporella (musiikki)
