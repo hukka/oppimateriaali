@@ -1,10 +1,18 @@
+****************************************************
+OPS 2016 luonnoksen ydinkohtia ohjelmoinnin kannalta
+****************************************************
+© `Opetushallitus <http://www.oph.fi/ops2016/perusteluonnokset>`_
+
+=========================================
+Laaja-alainen osaaminen vuosiluokilla 7-9
+=========================================
+L5: Tieto- ja viestintäteknologinen osaaminen:
+--- Ohjelmointia harjoitellaan osana eri oppiaineiden opintoja ---
+
+
 =================================================================================================
 OPS2016 ehdotus 15.10.2014 päättyneellä lausuntokierroksella matematiikan opetukseksi yläkoulussa
 =================================================================================================
-© `Opetushallitus <http://www.oph.fi/ops2016/perusteluonnokset>`_
-
-Tähän kappaleeseen OPS2016 teksti, jotta muualta dokumentista voi linkata helposti eri tavoitteisiin,
-sisältöihin ja arviointikriteereihin (jos niihin joskus tulee jotain olennaista).
 
 .. _ops-tavoitteet:
 
@@ -70,6 +78,17 @@ Tavoitteet
 |            | ja ohjelmointia ongelmien ratkaisemiseen                                                          | S10           | L1, L4, L5, L6     |
 +------------+---------------------------------------------------------------------------------------------------+---------------+--------------------+
 
+Tarkemmat arvosteluperiaatteet
+------------------------------
+
++-----+-----------------------+-------------------------------+------------------------------------+------------------+
+|     | Arvioinnin kohteena   | < 8 osaaminen                 | Arvosanan kahdeksan osaaminen      | > 8 osaaminen    |
+|     | oppiaineessa          |                               |                                    |                  |
++=====+=======================+===============================+====================================+==================+
+| T20 | Algoritminen ajattelu | Oppilas ymmärtää algoritmisen | Oppilas ymmärtää algoritmisen      | Oppilas osaa     |
+|     | ja ohjelmointitaito   | ajattelun periaatteita ja     | ajattelun periaatteita ja osaa     | suunnitella ja   |
+|     |                       | ohjelmoinnin peruskäsitteitä. | ohjelmoida yksinkertaisia ohjelmia | tuottaa ohjelmia |
++-----+-----------------------+-------------------------------+------------------------------------+------------------+
 
 .. _ops-sisällöt:
 
