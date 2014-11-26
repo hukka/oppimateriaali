@@ -60,7 +60,14 @@ Laske:
     ([25 - (9 + 6)]· 4 - 10) : (36 : 12)
     \end{gather}
 
-.. todo::
+4. tehtävä
+**********
+Kokeile mitä tapahtuu, jos jätät alkavan sulun pois ennen komentoa.
+Entä lopettavan?
+Tai jos kirjoitat funktion nimen väärin tai annat liian vähän, paljon
+tai vääränlaisia argumentteja?
 
-    Eri virhetilanteiden kokeiluja: puuttuva sulku, liikaa sulkuja,
-    (1), väärä funktion nimi jne.
+Virheellisien ohjelmien kokeilu on hyödyllistä,
+sillä virheitä sattuu kaikille ohjelmoijille
+Kun tiedät mistä virheestä tapahtuu mitäkin,
+osaat myöhemmin keksiä nopeammin mistä vahingossa tehty virhe johtuu.
