@@ -1,38 +1,6 @@
 Yläkoulun ohjelmointia!
 =======================
 
-.. todo:: Tehtäville voisi luoda oman komennon, jotta niistä saa oman listauksen
-
-.. todo:: Minne mallivastaukset?
-
-.. todo::
-
-    Racketin builtinit saisi linkattua dokkareihin käyttämällä
-    pygmentsin formatteria, joka wrappaisi lexeriltä tulevat keywordit
-    anchoreiksi ja antaisi ne vasta sitten eteenpäin tavalliselle
-    HtmlFormatterille.
-
-    Mikäli haluaisi vielä viilata tarkemmin, pitäisi tehdä uusi
-    lexeri, jossa keywordit ja builtinit olisi korvattu BSL:n
-    vastaavilla muokkaamalla tests/examplefiles/example.rkt ulostuloa
-
-.. todo::
-
-    Linkit tehtävistä yms. aiheista OPS:n. Jokin systeemi,
-    jolla taas OPS-osassa näkee mitkä tehtävät kattavat minkäkin kohdan,
-    ja mitä jää kattamatta.
-
-.. todo::
-
-    Graafi, josta näkee missä järjestyksessä kappaleet pitää käydä.
-    Esim. Gephi voi saattaa tehdä nättejä, jos Graphviziä ei saa säädettyä.
-
-.. todo:: Muuta tehtävät containeriksi, tee sille CSS
-
-.. todo:: Algoritmisen ajattelun käsittely
-
-.. todo:: Ohjelmoijien metakognitiiviset prosessit? Miten lähteä luomaan ohjelmaa. Design recipe auttaa, mutta ei välttämättä tarpeeksi.
-
 Ohjelmoinnin ydinaiheita
 ------------------------
 
@@ -91,7 +59,44 @@ Ohjelmoinnin sovelluksia
    lukujonot
 
 
+.. todo:: Tehtäville voisi luoda oman komennon, jotta niistä saa oman listauksen
+
+.. todo:: Minne mallivastaukset?
+
+.. todo::
+
+    Racketin builtinit saisi linkattua dokkareihin käyttämällä
+    pygmentsin formatteria, joka wrappaisi lexeriltä tulevat keywordit
+    anchoreiksi ja antaisi ne vasta sitten eteenpäin tavalliselle
+    HtmlFormatterille.
+
+    Mikäli haluaisi vielä viilata tarkemmin, pitäisi tehdä uusi
+    lexeri, jossa keywordit ja builtinit olisi korvattu BSL:n
+    vastaavilla muokkaamalla tests/examplefiles/example.rkt ulostuloa
+
+.. todo::
+
+    Linkit tehtävistä yms. aiheista OPS:n. Jokin systeemi,
+    jolla taas OPS-osassa näkee mitkä tehtävät kattavat minkäkin kohdan,
+    ja mitä jää kattamatta.
+
+.. todo::
+
+    Graafi, josta näkee missä järjestyksessä kappaleet pitää käydä.
+    Esim. Gephi voi saattaa tehdä nättejä, jos Graphviziä ei saa säädettyä.
+
+.. todo:: Muuta tehtävät containeriksi, tee sille CSS
+
+.. todo:: Algoritmisen ajattelun käsittely
+
+.. todo:: Ohjelmoijien metakognitiiviset prosessit? Miten lähteä luomaan ohjelmaa. Design recipe auttaa, mutta ei välttämättä tarpeeksi.
+
+.. todo:: handinilla tehtävien tarkastusta
+
+.. todo:: EV3-kirjasto, ja drracket plugini helpompaan käyttämiseen
+
 Ideoita
+-------
 
 - Luvun ja numeron ero, 5 ja V ovat samoja lukuja, mutta eri kirjoitusjärjestelmän
   numeroita. Racketissä 42 ja "42" tarkoittavat lukua ja numeroista koostuvaa tekstiä.
