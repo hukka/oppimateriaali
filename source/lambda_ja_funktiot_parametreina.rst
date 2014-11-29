@@ -1,0 +1,2 @@
+Lamda ja funktiot parametreina
+==============================

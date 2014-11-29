@@ -33,14 +33,15 @@ Yläkoulun ohjelmointia!
 
 .. todo:: Ohjelmoijien metakognitiiviset prosessit? Miten lähteä luomaan ohjelmaa. Design recipe auttaa, mutta ei välttämättä tarpeeksi.
 
-Ohjelmoinnin käsitteitä (esitietovaatimuksia):
+Ohjelmoinnin ydinaiheita
+------------------------
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    sanasto
    miksi-koodata
-   miksi-opettaa-talla
+   miksi_opettaa_talla
    ops2016
    perusasiat
    laskujarjestys
@@ -48,12 +49,10 @@ Ohjelmoinnin käsitteitä (esitietovaatimuksia):
    vakiot
    omat_funktiot
    funktioiden_suunnittelu
-   tiedostot-1
    animaatiot-1
    structit
    interaktiivisuus
    listat_ja_rekursio
-   tiedostot-2
    algoritmit
    lambda_ja_funktiot_parametreina
    puut_ja_graafit
@@ -62,9 +61,20 @@ Ohjelmoinnin käsitteitä (esitietovaatimuksia):
    sivuvaikutukset
    algoritmien_vaativuus
 
-.. todo:: Onko tiedostojen käsittely ydinkonsepti vai sovellus?
+Ohjelmoinnin valinnaisia aiheita
+--------------------------------
+.. toctree::
 
-Ohjelmoinnin sovelluksia:
+   tiedostot-1
+   tiedostot-2
+   tietotyypit
+   liukuluvut
+   tietokoneen_rakenne
+   tietoverkot
+
+
+Ohjelmoinnin sovelluksia
+------------------------
 
 .. toctree::
 
