@@ -1,3 +1,3 @@
 Sivuvaikutukset
 ===============
-::samp::`begin` vaatii ASL:n.
+:samp:`begin` vaatii ASL:n.

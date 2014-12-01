@@ -79,7 +79,7 @@ Sen tarkoitus on auttaa miettimään ohjelman rakennetta.
 
 6. Testaa
 ---------
-Kun käytät ::samp::`check-expect` funktiota,
+Kun käytät :samp:`check-expect` funktiota,
 voit helposti testata funktion toimivuuden suorittamalla ohjelman.
 Jos ohjelma toimii, olet valmis.
 Jos ei, ohjelmassa voi olla virhe ja sinun täytyy palata edelliseen kohtaan.

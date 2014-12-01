@@ -1,0 +1,17 @@
+.rst-content .admonition-tehtava{
+    padding: 12px;
+    line-height: 24px;
+    margin-bottom: 24px;
+    background: none repeat scroll 0% 0% #E7F2FA;
+}
+
+.rst-content .admonition-tehtava-viela {
+    padding: 12px;
+    line-height: 24px;
+    margin-bottom: 24px;
+    background: none repeat scroll 0% 0% #FFEDCC;
+}
+
+.rst-content .admonition-tehtava-viela .admonition-title {
+    background: none repeat scroll 0% 0% #F0B37E;
+}

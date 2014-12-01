@@ -51,20 +51,21 @@ Vaatii :doc:`ehtolauseet`, :doc:`listat_ja_rekursio`, :doc:`paikalliset_maaritel
         [to-draw draw]
         [on-tick step])
 
-1. tehtävä
-----------
-Miten tekisit seuraavat funktiot? Huomaa, että joudut säätämään y:n maksimirajaa, jotta kuva piirtyy oikein.
+.. admonition:: Tehtävä
 
-.. math::
+    Miten tekisit seuraavat funktiot?
+    Huomaa, että joudut säätämään y:n maksimirajaa, jotta kuva piirtyy oikein.
 
-    \begin{gather}
-    y = 2x
-    y = x^2
-    f_1(x) = \sin x^4\\
-    f_2(x) = \sin e^x\\
-    f_3(x) = \tan x\\
-    f_4(x) = \sin \frac{1}{x}\\
-    \end{gather}
+    .. math::
+
+        \begin{gather}
+        y = 2x
+        y = x^2
+        f_1(x) = \sin x^4\\
+        f_2(x) = \sin e^x\\
+        f_3(x) = \tan x\\
+        f_4(x) = \sin \frac{1}{x}\\
+        \end{gather}
 
 .. todo::
 
@@ -104,8 +105,8 @@ Kahden yhteenlasketun funktion plottaus
               (define (h x) (+ (f x) (g x))))
         (plot h (- MAX_X) 0.2 (empty-scene WIDTH HEIGHT))))
 
-2. tehtävä
-----------
-Piirrä myös x- ja y-akselit ja niiden asteikot.
+.. admonition:: Tehtävä
+
+    Piirrä myös x- ja y-akselit ja niiden asteikot.
 
 .. todo:: Asteikko? Jakomerkit? Mikä on oikea termi. Ticks englanniksi.

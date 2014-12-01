@@ -1,5 +1,6 @@
 Yläkoulun ohjelmointia!
 =======================
+:ref:`genindex`
 
 Ohjelmoinnin ydinaiheita
 ------------------------
@@ -85,8 +86,6 @@ Ohjelmoinnin sovelluksia
     Graafi, josta näkee missä järjestyksessä kappaleet pitää käydä.
     Esim. Gephi voi saattaa tehdä nättejä, jos Graphviziä ei saa säädettyä.
 
-.. todo:: Muuta tehtävät containeriksi, tee sille CSS
-
 .. todo:: Algoritmisen ajattelun käsittely
 
 .. todo:: Ohjelmoijien metakognitiiviset prosessit? Miten lähteä luomaan ohjelmaa. Design recipe auttaa, mutta ei välttämättä tarpeeksi.
@@ -113,7 +112,3 @@ Ideoita
 - Vaikeaa, mutta parseri joka ymmärtää polynomeja
 
 
-Indices and tables
-==================
-
-* :ref:`genindex`

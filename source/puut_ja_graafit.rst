@@ -1,6 +1,6 @@
 Puut ja graafit
 ===============
-::samp::`raco pkg install graph`
+:samp:`raco pkg install graph`
 
 BSL with list abbreviations
 

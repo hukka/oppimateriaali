@@ -334,3 +334,6 @@ epub_exclude_files = ['search.html']
 #epub_use_index = True
 
 todo_include_todos = True
+
+def setup(app):
+    app.add_stylesheet("custom.css")

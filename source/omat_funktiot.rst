@@ -26,20 +26,21 @@ Funktio::
 
 laskisi kahden annetun numeron summan.
 
-1. tehtävä
-----------
-Tee funktio
 
-- ::samp::`kolmio`, joka antaa kuvan suorakulmaisesta kolmiosta,
-  kun sille annetaan kateettien pituudet
-- ::samp::`kolmion-pinta-ala`, joka laskee suorakulmaisen kolmion pinta-alan,
-  kun sille annetaan kolmion kateettien pituudet.
-- ::samp::`hypotenuusa`, joka laskee hypotenuusan kun
-  sille annetaan kolmion kateettien pituudet.
-- ::samp::`kuvan-luokittelu` joka palauttaa tekstin "korkea",
-  jos sille annettu kuvan korkeus on suurempi kuin leveys;
-  "neliö", jos ne ovat yhtäsuuret
-  ja muussa tapauksessa "leveä".
+.. admonition:: Tehtävä
+
+    Tee funktio
+
+    - :samp:`kolmio`, joka antaa kuvan suorakulmaisesta kolmiosta,
+      kun sille annetaan kateettien pituudet
+    - :samp:`kolmion-pinta-ala`, joka laskee suorakulmaisen kolmion pinta-alan,
+      kun sille annetaan kolmion kateettien pituudet.
+    - :samp:`hypotenuusa`, joka laskee hypotenuusan kun
+      sille annetaan kolmion kateettien pituudet.
+    - :samp:`kuvan-luokittelu` joka palauttaa tekstin "korkea",
+      jos sille annettu kuvan korkeus on suurempi kuin leveys;
+      "neliö", jos ne ovat yhtäsuuret
+      ja muussa tapauksessa "leveä".
 
 
 .. todo::

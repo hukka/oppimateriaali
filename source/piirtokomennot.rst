@@ -30,15 +30,15 @@ Kokeile miten toinen ja kolmas :term:`parametri` vaikuttavat lopputulokseen!
 Entä mitä tekee funktio :code:`overlay/xy` samoilla parametreillä?
 
 
-1. tehtävä
-----------
-Piirrä peruskomentoja käyttäen yksinkertainen kuva autosta.
+.. admonition:: Tehtävä
+
+    Piirrä peruskomentoja käyttäen yksinkertainen kuva autosta.
 
 .. todo:: Olisiko hyvä olla kuva esimerkkiautosta?
 
-2. tehtävä
-----------
-Valitse kaksi eri maata ja piirrä niiden liput Racketillä.
+.. admonition:: Tehtävä
+
+    Valitse kaksi eri maata ja piirrä niiden liput Racketillä.
 
 
 Kiinnostuitko?
