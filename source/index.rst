@@ -48,6 +48,7 @@ Ohjelmoinnin sovelluksia
 .. toctree::
 
    piirtokomennot
+   sektorit
    animaatiot-2
    animaatiot-3
    turtles
