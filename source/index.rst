@@ -98,8 +98,6 @@ Ohjelmoinnin sovelluksia
 Ideoita
 -------
 
-- Luvun ja numeron ero, 5 ja V ovat samoja lukuja, mutta eri kirjoitusjärjestelmän
-  numeroita. Racketissä 42 ja "42" tarkoittavat lukua ja numeroista koostuvaa tekstiä.
 - "Vahvistetaan ymmärrystä tarkan arvon ja likiarvon erosta sekä pyöristämisestä."
 - "Opitaan neliöjuuren käsite ja käytetään neliöjuurta laskutoimituksissa"
   Pythagoras kaikissa etäisyyttä vaativissa 2D- ja 3D-animaatioissa

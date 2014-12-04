@@ -85,6 +85,14 @@ Sanasto
     kaari
         TODO
 
+    value
+    arvo
+        TODO
+
+    number
+    numero
+        TODO
+
     string
     merkkijono
         TODO

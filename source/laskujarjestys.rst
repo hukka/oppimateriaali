@@ -49,6 +49,9 @@ Esimerkiksi :math:`5 + 15:3` kirjoitetaan :code:`(+ 5 (/ 15 3))`.
 
     Minne kasata opettajalle huomioitavia asioita, kuten (+ 1 2 3 4) tässä?
 
+.. todo::
+
+    Olisiko "yhdistä viivalla"-tehtävä bootstrapin tapaan soveltuva?
 
 .. admonition:: Tehtävä
 
@@ -66,10 +69,27 @@ Esimerkiksi :math:`5 + 15:3` kirjoitetaan :code:`(+ 5 (/ 15 3))`.
 
     Kokeile mitä tapahtuu, jos jätät alkavan sulun pois ennen komentoa.
     Entä lopettavan?
-    Tai jos kirjoitat funktion nimen väärin tai annat liian vähän, paljon
+    Tai jos kirjoitat funktion nimen väärin tai annat liian vähän
     tai vääränlaisia argumentteja?
 
     Virheellisien ohjelmien kokeilu on hyödyllistä,
     sillä virheitä sattuu kaikille ohjelmoijille
     Kun tiedät mistä virheestä tapahtuu mitäkin,
     osaat myöhemmin keksiä nopeammin mistä vahingossa tehty virhe johtuu.
+
+Vastaukset
+
+::
+
+    (*1 2)
+    ; *1: this function is not defined
+    (1 * 2)
+    ; expected a function after the open parenthesis, but found a number
+    (* 1)
+    ; *: expects at least 2 arguments, but found only 1
+    * 1 2)
+    ; unexpected ')'
+    (* 1 2
+    ; expected a ')' to close '('
+    (* "moi" 2)
+    ; *: expects a number as 1st argument, given "moi"
