@@ -14,9 +14,9 @@ Ohjelmoinnin ydinaiheita
    ops2016
    perusasiat
    laskujarjestys
-   ehtolauseet
    vakiot
    omat_funktiot
+   ehtolauseet
    funktioiden_suunnittelu
    animaatiot-1
    structit
@@ -94,6 +94,8 @@ Ohjelmoinnin sovelluksia
 .. todo:: handinilla tehtävien tarkastusta
 
 .. todo:: EV3-kirjasto, ja drracket plugini helpompaan käyttämiseen
+
+.. todo:: Kuvat on Safarilla valtavia
 
 Ideoita
 -------

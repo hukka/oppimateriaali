@@ -1,11 +1,12 @@
 Piirtokomennot
 ==============
 Jotta Racketillä voisi piirtää omia kuvia, ohjelman täytyy
-ladata käyttöön uusi :term:`kirjasto`::
+ladata käyttöön uusi :term:`kirjasto` kirjoittamalla yläruutuun::
 
     (require 2htdp/image)
 
-Kirjaston lataaminen tuo käytettäväksi joukon uusia funktioita, kuten
+Kirjaston lataaminen ei pelkästään vielä tee mitään,
+mutta se antaa käytettäväksi joukon uusia funktioita, kuten
 :code:`circle`, :code:`ellipse`, :code:`line`, :code:`rectangle` ja :code:`triangle`.
 Esimerkiksi punaisen ympyrän saa piirrettyä funktiokutsulla::
 
@@ -13,38 +14,47 @@ Esimerkiksi punaisen ympyrän saa piirrettyä funktiokutsulla::
 
 .. image:: _static/circle-red.png
 
-Toinen :term:`parametri` voi olla joko :code:`"solid"`, :code:`"outline"`
+Toinen :term:`argumentti` voi olla joko :code:`"solid"`, :code:`"outline"`
 tai luku 0 ja 255 välillä.
-Kokeile mitä nämä eri vaihtoehdot tekevät!
+
+.. admonition:: Tehtävä
+
+    Kokeile piirtää kaikilla yläpuolella mainituilla piirtofunktioilla.
+
+    Kokeile myös mitä tapahtuu, jos käytät :code:`"solid"` sijasta numeroa.
 
 Monimutkaisempia kuvia voi muodostaa asettamalla kuvia päällekäin
 funktiolla::
 
     (overlay/offset (circle 20 "solid" "red")
                     10 10
-                    (circle 20 "solid" "blue"))
+                    (circle 30 "solid" "blue"))
 
 .. image:: _static/circle-red-blue.png
 
-Kokeile miten toinen ja kolmas :term:`parametri` vaikuttavat lopputulokseen!
-Entä mitä tekee funktio :code:`overlay/xy` samoilla parametreillä?
-
-
 .. admonition:: Tehtävä
 
-    Piirrä peruskomentoja käyttäen yksinkertainen kuva autosta.
+    Osaatko paksuntaa reunaviivaa piirtämällä ympyröitä päällekäin.
 
-.. todo:: Olisiko hyvä olla kuva esimerkkiautosta?
+.. image:: thick-outline.png
+
+Kokeile miten toinen ja kolmas :term:`argumentti` vaikuttaa lopputulokseen!
 
 .. admonition:: Tehtävä
 
     Valitse kaksi eri maata ja piirrä niiden liput Racketillä.
 
+.. admonition:: Tehtävä
+
+    Piirrä peruskomentoja käyttäen yksinkertainen kuva autosta
+    käyttäen alussa mainittuja piirtokomentoja.
+    Vinkkinä kannattaa laittaa eri auton osat eri väreillä,
+    jotta näet paremmin miten ne liikkuvat.
+
 
 Kiinnostuitko?
 --------------
-
-Voit saada lisää värejä käyttöön laittamalla viimeiseksi parametriksi
-:term:`merkkijono`\n tilalle funktiokutsun :code:`make-color`.
+Voit saada lisää värejä käyttöön laittamalla viimeiseksi argumentiksi
+:term:`merkkijonon <merkkijono>` tilalle funktion :code:`make-color` kutsun.
 Katso myös mitä muita komentoja `image.rkt -kirjastosta <http://docs.racket-lang.org/teachpack/2htdpimage.html>`_
 löytyy, sekä vilkaise `piirtokomentojen opasta <http://docs.racket-lang.org/teachpack/2htdpimage-guide.html>`_.

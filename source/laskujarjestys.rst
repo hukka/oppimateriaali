@@ -8,7 +8,13 @@ Racketissä kaikki funktiokutsut, eli komennot, kirjoitetaan sulkujen sisään.
 Ensimmäiseksi tulee aina funktion nimi ja sen jälkeen välilyönnillä erotellut :term:`argumentit <argumentti>`,
 eli funktiolle annettavat arvot.
 
+.. todo::
+
+    "yhdistä viivalla"-tehtävä bootstrapin tapaan ja esimerkit pois
+
 Esimerkiksi :math:`2+3` kirjoitetaan :code:`(+ 2 3)`.
+Kertolaskussa käytetään symbolia :code:`*` ja
+jakolaskussa :code:`/`.
 
 .. admonition:: Tehtävä
 
@@ -17,41 +23,58 @@ Esimerkiksi :math:`2+3` kirjoitetaan :code:`(+ 2 3)`.
     .. math::
 
         \begin{gather}
-        18 - 5 + 7 \\
-        5 + 15 : 3 \\
-        7 · 8 - 26 \\
-        20 : 5 · 4 \\
+        42 + 9 \\
+        3 - 10 \\
+        6 · 7 \\
+        121 : 11 \\
+        \end{gather}
+
+.. admonition:: Tehtävä
+
+    Keksitkö miten voisit laskea Racketillä
+
+    .. math::
+
+        \begin{gather}
         (8 - 2) : 3 \\
         27 : (3 · 3) \\
+        18 - 5 + 7 \\
+        5 + 15 : 3 \\
+        (5 + 15) : 3 \\
+        7 · 8 - 26 \\
+        20 : 5 · 4 \\
         \end{gather}
 
 Moniosaiset laskut Racketillä
 -----------------------------
-Funktion :term:`parametri` voi olla myös toinen funktiokutsu, jonka lopputulos on luku.
+Edellisessä tehtävässä funktion :term:`argumenttina <argumentti>`
+oli aina yksi luku ja yksi sellainen funktiokutsu, jonka lopputulos oli luku.
 
-Esimerkiksi :math:`5 + 15:3` kirjoitetaan :code:`(+ 5 (/ 15 3))`.
+Esimerkiksi :math:`5 + 15:3` kirjoitetaan :code:`(+ 5 (/ 15 3))`
+ja :math:`10 : (5 - 3)` :code:`(/ 10 (- 5 3))`.
 
+Yleisesti ottaen minkä tahansa luvun voi korvata funktiokutsulla.
+Funktiokutsuja voi olla sisäkkäin miten monta tahansa.
 
 .. admonition:: Tehtävä
 
-    Laske:
+    Laske Racketillä
 
     .. math::
         \begin{gather}
         (14 + 16) · (20 : 4) \\
         (9 - 3) · (9 + 3) \\
         108 - 8 · (2 + 8) \\
-        36 : 9 + 2 · 3 - 15 : 5 \\
-        1 + 2 + 3 + 4
+        1 + 2 + 3 + 4 \\
+        36 : 9 + 2 · 3 + 15 : 5 \\
+        1 - 2 * (9 : 3) \\
         \end{gather}
 
 .. todo::
 
     Minne kasata opettajalle huomioitavia asioita, kuten (+ 1 2 3 4) tässä?
+    Kysymysmerkki-popup vinkkeihin, vastaus-popup vastauksiin
 
-.. todo::
-
-    Olisiko "yhdistä viivalla"-tehtävä bootstrapin tapaan soveltuva?
 
 .. admonition:: Tehtävä
 
@@ -70,26 +93,13 @@ Esimerkiksi :math:`5 + 15:3` kirjoitetaan :code:`(+ 5 (/ 15 3))`.
     Kokeile mitä tapahtuu, jos jätät alkavan sulun pois ennen komentoa.
     Entä lopettavan?
     Tai jos kirjoitat funktion nimen väärin tai annat liian vähän
-    tai vääränlaisia argumentteja?
+    tai väärän tyyppisiä argumentteja?
 
-    Virheellisien ohjelmien kokeilu on hyödyllistä,
-    sillä virheitä sattuu kaikille ohjelmoijille
+    Virheellisien komentojen kokeilu on hyödyllistä,
+    sillä virheitä sattuu kaikille ohjelmoijille.
     Kun tiedät mistä virheestä tapahtuu mitäkin,
     osaat myöhemmin keksiä nopeammin mistä vahingossa tehty virhe johtuu.
 
-Vastaukset
-
-::
-
-    (*1 2)
-    ; *1: this function is not defined
-    (1 * 2)
-    ; expected a function after the open parenthesis, but found a number
-    (* 1)
-    ; *: expects at least 2 arguments, but found only 1
-    * 1 2)
-    ; unexpected ')'
-    (* 1 2
-    ; expected a ')' to close '('
-    (* "moi" 2)
-    ; *: expects a number as 1st argument, given "moi"
+Kiinnostuitko?
+--------------
+Muita matikkafunktioita F1:llä
