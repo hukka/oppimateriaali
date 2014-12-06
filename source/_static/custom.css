@@ -12,6 +12,38 @@
     background: none repeat scroll 0% 0% #FFEDCC;
 }
 
+.rst-content .admonition-tehtava .admonition-title:before {
+    content: "\f11c";
+}
+
 .rst-content .admonition-tehtava-viela .admonition-title {
     background: none repeat scroll 0% 0% #F0B37E;
+}
+
+.rst-content .hint {
+    visibility: hidden;
+}
+
+.rst-content .hint:hover {
+    visibility: visible;
+}
+
+.rst-content .hint .admonition-title:before {
+    content: "\f059";
+}
+
+.rst-content .hint p:first-child{
+    visibility: visible;
+    position: relative;
+}
+
+.rst-content .hint p {
+    position: absolute;
+    z-index: 1;
+    visibility: hidden;
+}
+
+.rst-content .hint:hover p {
+    visibility: visible;
+    position: relative;
 }
