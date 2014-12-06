@@ -83,3 +83,43 @@ __ https://en.wikipedia.org/wiki/HSL_and_HSV#From_HSL
     (lots-of-wedges 60)
 
 .. image:: _static/kuusikymmenta-sektoria.png
+
+Hieman toistettua koodia vähentämällä::
+
+    (require 2htdp/image)
+    (define SIZE 50)
+    (define alpha-circle
+      (circle SIZE "solid" (make-color 255 255 255 0)))
+
+    (define (half image)
+      (crop 0 0 (* 2 SIZE) SIZE image))
+
+    (define (make-wedge color angle)
+       (underlay/align
+        "left" "top"
+        alpha-circle
+        (half (underlay/align
+               "left"
+               (cond [(< angle 90) "bottom"]
+                     [else "top"])
+               alpha-circle
+               (rotate (- 180 angle)
+                       (half (circle SIZE "solid" color)))))))
+
+    (define (hue-to-color hue)
+      (f1 (/ hue 60)))
+
+    (define (f1 H2)
+      (f2 H2 (round (* 255 (- 1 (abs (- (my-modulo H2 2) 1)))))))
+
+    (define (my-modulo a b)
+      (cond [(< a b) a]
+            [else (my-modulo (- a b) b)]))
+
+    (define (f2 H2 X)
+      (cond [(<= 0 H2 1) (make-color 255 X 0)]
+            [(<= 1 H2 2) (make-color X 255 0)]
+            [(<= 2 H2 3) (make-color 0 255 X)]
+            [(<= 3 H2 4) (make-color 0 X 255)]
+            [(<= 4 H2 5) (make-color X 0 255)]
+            [(<= 5 H2 6) (make-color 255 0 X)]))

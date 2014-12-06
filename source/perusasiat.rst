@@ -30,9 +30,18 @@ Kokeile kirjoittaa alaosaan::
     true
     false
 
-Voit myös kopioida ja liittää kuvia suoraan leikepöydältä DrRackettiin.
+Voit myös liittää kuvia leikepöydältä suoraan DrRackettiin.
 
-.. todo:: Linkki miten kopioida ja liittää
+.. hint::
+
+    Saat kopioitua kuvan webbisivulta leikepöydälle klikkaamalla
+    kuvaa oikealla hiiren näppäimellä (mäkeillä pitää klikata :kbd:`Ctrl` pohjassa)
+    ja valitsemalla valikosta :samp:`Kopioi kuva` tai vastaava komento
+    (komennon tarkka kirjoitusasu riippuu selaimesta).
+
+    DrRacketissä voi liittää kuvia klikkaamalla oikealla hiiren näppäimellä
+    ja valitsemalla :samp:`Paste`, painamalla :kbd:`Ctrl+v` (mäkeillä :kbd:`Cmd+v`)
+    tai valikoiden kautta :menuselection:`Edit-->Paste`.
 
 .. image:: _static/kitten.jpg
 
@@ -40,7 +49,7 @@ Nämä kaikki olivat :term:`arvoja <arvo>`.
 DrRacket antaa aina jokaisen komennon jälkeen takaisin lopputuloksen arvon,
 joka tässä tapauksessa on se mitä itse kirjoitit.
 
-Kokeile seuraavaksi :term:`kutsu <funktiokutsu>` komentoja::
+Kokeile seuraavaksi näitä komentoja::
 
     (+ 1 2)
     (/ 1 3)
@@ -50,10 +59,17 @@ Kokeile seuraavaksi :term:`kutsu <funktiokutsu>` komentoja::
     (> 1/3 0.5)
 
 DrRacket ei enää anna takaisin täsmälleen samaa,
-vaan se suorittaa annetun komennon.
-Ohjelmoinnissa näitä komentoja sanotaan funktioiksi.
-Niillä on argumentteja, eli jotain mikä annetaan funktiolle,
-ja ulostulo, eli funktion lopputulos.
+vaan se laskee annetun komennon arvon.
+Ohjelmoinnissa tällasia komentoja sanotaan :term:`funktiokutsuiksi <funktiokutsu>`.
+Ne alkavat aina sululla, jonka jälkeen tulee funktion nimi.
+Seuraavaksi niille annetaan välilyönnillä toisistaan erotettuja argumentteja,
+eli jotain tietoja, joita funktio käyttää.
+Viimeisen argumentin jälkeen tulee sulkeva sulku.
+
+Argumentit ovat yksinkertaisimmillaan suoraan kirjoitettuja arvoja.
+Mutta koska funktiokutsujen lopputulos on aina arvo,
+argumenteiksi voi laittaa myös muita funktiokutsuja, jopa saman funktion kutsuja!
+Esimerkiksi jakolaskufunktion argumenttina voi olla toinen jakolasku.
 
 .. note::
 
@@ -70,7 +86,11 @@ Ylempänä olevat esimerkit olivat :term:`numeroita <numero>`,
 ja kuvia.
 Huomaa, että numero :samp:`42` ja merkkijono :samp:`"42"` ovat eri asioita!
 Ensimmäinen on matemaattinen käsite, toinen kaksi :term:`merkkiä <merkki>`.
-Eli :code:`(+ 1 2)` toimii, mutta :code:`(+ "1" "2")` ei.
+
+Funktioiden argumenttien pitää olla tiettyä tyyppiä.
+Esimerkiksi koska :code:`+` käsittelee numeroita,
+mutta ei tiedä mitä tehdä tekstille,
+:code:`(+ 1 2)` toimii, mutta :code:`(+ "1" "2")` ei.
 
 Rationaaliluvut voidaan ilmoittaa Racketissä kahdella lailla.
 Oletuksena DrRacket käyttää desimaalimuotoa,

@@ -14,6 +14,10 @@ Sanasto
         :code:`(define (funktio parametri1 parametri2) (+ parametri1 parametri2)`
         laskisi ylläolevan esimerkin tapauksessa summan luvuista 1 ja 2.
 
+    function call
+    funktiokutsu
+        TODO
+
     recursion
     rekursio
         TODO
@@ -91,6 +95,10 @@ Sanasto
 
     number
     numero
+        TODO
+
+    character
+    merkki
         TODO
 
     string

@@ -3,18 +3,28 @@ Laskujärjestys
 
 Peruslaskut Racketillä
 ----------------------
-
 Racketissä kaikki funktiokutsut, eli komennot, kirjoitetaan sulkujen sisään.
-Ensimmäiseksi tulee aina funktion nimi ja sen jälkeen välilyönnillä erotellut :term:`argumentit <argumentti>`,
-eli funktiolle annettavat arvot.
+Ensimmäiseksi tulee aina funktion nimi ja sen jälkeen välilyönnillä erotellut :term:`argumentit <argumentti>` ja lopuksi sulkeva sulku.
 
-.. todo::
+.. admonition:: Tehtävä
 
-    "yhdistä viivalla"-tehtävä bootstrapin tapaan ja esimerkit pois
+    Mitkä seuraavista matemaattisista laskuista vastaavat mitäkin
+    Racket-koodia?
 
-Esimerkiksi :math:`2+3` kirjoitetaan :code:`(+ 2 3)`.
-Kertolaskussa käytetään symbolia :code:`*` ja
-jakolaskussa :code:`/`.
+    .. math::
+
+        \begin{gather}
+        2 + 3 + 4 \\
+        2 : (3 - 4) \\
+        2 · 3^4 \\
+        \end{gather}
+
+    ::
+
+        (/ 2 (- 3 4))
+        (+ 2 3 4)
+        (* 2 (expt 3 4))
+
 
 .. admonition:: Tehtävä
 
@@ -53,8 +63,9 @@ oli aina yksi luku ja yksi sellainen funktiokutsu, jonka lopputulos oli luku.
 Esimerkiksi :math:`5 + 15:3` kirjoitetaan :code:`(+ 5 (/ 15 3))`
 ja :math:`10 : (5 - 3)` :code:`(/ 10 (- 5 3))`.
 
-Yleisesti ottaen minkä tahansa luvun voi korvata funktiokutsulla.
-Funktiokutsuja voi olla sisäkkäin miten monta tahansa.
+Yleisesti ottaen minkä tahansa luvun voi korvata funktiokutsulla ja
+funktiokutsuja voi olla sisäkkäin rajattomasti
+(tai oikeastaan rajoituksena on tietokoneen muistin määrä).
 
 .. admonition:: Tehtävä
 
@@ -69,12 +80,6 @@ Funktiokutsuja voi olla sisäkkäin miten monta tahansa.
         36 : 9 + 2 · 3 + 15 : 5 \\
         1 - 2 * (9 : 3) \\
         \end{gather}
-
-.. todo::
-
-    Minne kasata opettajalle huomioitavia asioita, kuten (+ 1 2 3 4) tässä?
-    Kysymysmerkki-popup vinkkeihin, vastaus-popup vastauksiin
-
 
 .. admonition:: Tehtävä
 
@@ -102,4 +107,6 @@ Funktiokutsuja voi olla sisäkkäin miten monta tahansa.
 
 Kiinnostuitko?
 --------------
-Muita matikkafunktioita F1:llä
+Kun painat :kbd:`F1` jonkin laskufunktion päällä, pääset ohjeisiin,
+joista löydät myös kaikki muut mahdolliset matemaattiset funktiot,
+kuten eksponentin, neliöjuuren ja trigonometriset funktiot.
