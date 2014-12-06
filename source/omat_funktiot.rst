@@ -7,28 +7,55 @@ Omat funktiot määritellään kirjoittamalla
     (define (funktion-nimi parametri toinen-parametri)
         ...)
 
-Pisteiden tilalle tulee lause,
-jonka loppuarvo on myös funktiokutsun loppuarvo.
-Sekä funktion että parametrien nimet voivat olla mitä tahansa.
-Parametrejä tulee olla vähintään yksi, mutta niitä ei ole pakko käyttää.
+Tässä suluissa oleva ensimmäinen "argumentti" näyttää funktiokutsulta,
+mutta ei oikeasti ole sitä, eikä edes argumentti:
+:code:`define` on Rackettiin tehty poikkeustapaus
+(siksi se ei myöskään palauta mitään arvoa, kuten vakioihin tutustuttaessa huomattiin).
+
+Pisteiden tilalle tulee joko arvo tai funktiokutsu,
+jonka lopputulos on myös uuden, tässä määritellyn funktion lopputulos.
+Sekä funktion että parametrien nimet saa päättää samoilla säännöillä  kuin vakioidenkin nimet.
+
+Parametrejä tulee olla vähintään yksi, mutta niitä ei ole pakko käyttää
+(tällöin on tosin parempi käyttää funktion sijaan vakiota).
 Ne toimivat niminä funktiokutsussa annetuille arvoille,
 ikäänkuin ne olisivat vakioita, jotka toimivat vain funktion sisällä.
 
-Esimerkiksi funktio::
+Esimerkiksi funktio
+
+::
 
     (define (funktio1 a b)
         2)
 
-palauttaa aina :samp:`2` riippumatta millä arvoilla funktiota kutsutaan.
-Funktio::
+palauttaa aina arvon :samp:`2` riippumatta siitä,
+millä argumenteilla funktiota kutsutaan.
+Funktio
+
+::
 
     (define (plus x y)
         (+ x y))
 
-laskisi kahden annetun numeron summan.
+laskisi kahden annetun numeron summan, ja
+
+::
+
+    (define (pallo koko)
+        (circle koko "solid" "yellow"))
+
+piirtäisi annetun kokoisen, keltaisen pallon.
 
 Kuten vakiotkin, omat funktiot määritellään DrRacketin yläosaan,
 jonka jälkeen niitä voi käyttää kuten mitä tahansa muutakin funktiota.
+
+.. note::
+
+    Huomaa parametrin ja argumentin ero!
+    Argumentti on tietoa, joka annetaan funktiolle sitä kutsuttaessa.
+    Parametri on tälle tiedolle annettu nimi, jota funktio käyttää sisäisesti.
+    Esimerkiksi ylempänä olevat a, b, x ja y ovat parametrejä,
+    mutta funktiokutsussa :code:`(plus 10 15)` 10 ja 15 ovat argumentteja.
 
 
 .. admonition:: Tehtävä
@@ -41,15 +68,19 @@ jonka jälkeen niitä voi käyttää kuten mitä tahansa muutakin funktiota.
       kun sille annetaan kolmion kateettien pituudet.
     - :samp:`hypotenuusa`, joka laskee hypotenuusan kun
       sille annetaan kolmion kateettien pituudet.
-    - :samp:`kuvan-luokittelu` joka palauttaa tekstin "korkea",
-      jos sille annettu kuvan korkeus on suurempi kuin leveys;
-      "neliö", jos ne ovat yhtäsuuret
-      ja muussa tapauksessa "leveä".
 
+.. admonition:: Tehtävä
 
-.. todo::
+    Tee funktiot :code:`eur->usd` ja :code:`usd->eur`,
+    joilla voit muuttaa euroja dollareiksi ja toisinpäin.
 
-    Pitäisikö tehtävien olla matemaattisesti helpompia,
-    jotta niitä voisi käyttää jo aikaisemmilla luokka-asteilla?
-    Tai kokonaan epämatemaattisia,
-    esimerkiksi merkkijonojen ja kuvien käsittelyä?
+.. admonition:: Tehtävä
+
+    Tee funktio, joka piirtää annetun värisen auton
+    (esim. :code:`(piirrä-auto "red")`).
+
+.. admonition:: Tehtävä
+
+    Tee funktio, joka antaa toisen asteen yhtälön nollakohdan
+    (toinen juurista riittää tässä vaiheessa),
+    kun sille annetaan argumentteina polynomin kertoimet.

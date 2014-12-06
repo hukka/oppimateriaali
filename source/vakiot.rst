@@ -7,9 +7,13 @@ Se helpottaa myös ohjelman muuttamista: nimetty arvo tarvitsee muuttaa vain ker
 eikä jokaisessa paikassa, missä sitä käytetään.
 Nimeämistä sanotaan :term:`määritelmäksi <määritelmä>` ja
 nimettyä arvoa :term:`vakioksi <vakio>`.
-Nimi annetaan funktiolla :code:`define`::
+Nimi annetaan komennolla :code:`define`::
 
     (define nimi arvo)
+
+Vakion nimi voi olla lähes mitä tahansa:
+merkit (, ), [, ], {, }, ",  ', \`, ,; ,# ,| ,\\ ja itse pilkku ovat kiellettyjä.
+Lisäksi nimi ei saa näyttää numerolta.
 
 Esimerkiksi kahden ympyrän kuvalle voi antaa nimen näin::
 
@@ -22,12 +26,25 @@ Esimerkiksi kahden ympyrän kuvalle voi antaa nimen näin::
 
     Määritelmät täytyy kirjoittaa DrRacketin yläosaan!
 
-Kun olet kirjoittanut määritelmän, voit käyttää sitä suoraan alaosassa.
-Huomaa, että vakio ei ole funktiokutsu, eli sen eteen ei tule sulkua!
-Voit käyttää sitä aivan samaan tapaan kuin kirjoittaisit numeroita,
+Kun olet kirjoittanut määritelmän, voit käyttää sitä määritelmän alapuolella olevassa koodissa, sekä suoraan alaosassa.
+:code:`define` ei ole varsinaisesti funktio, sillä se ei palauta mitään.
+Jos siis esimerkiksi määrittelet kuvan, se ei tule näkyviin ennenkuin
+kirjoitat sille antamasi nimen ikäänkuin kirjoittaisit numeroita,
 merkkijonoja tai kopioisit kuvia.
-Vakioita voi siis laittaa myös muiden funktioiden syötteeksi,
-aivan kuin muitakin arvoja.
+Vakioita voi laittaa myös funktioiden argumenteiksi,
+aivan kuten arvoja.
+
+.. note::
+
+    Huomaa, että vakio ei ole funktiokutsu, eli sen ympärille ei tule sulkuja!
+    Se ei myöskään ole tekstiä, joten sen ympärille ei tule lainausmerkkejä.
+    Eli jos vakio :code:`pekka` olisi määritelty
+
+    ::
+
+        (define pekka "kissanhiekka")
+
+    niin :code:`pekka` antaisi sanan "kissanhiekka" ja :code:`"pekka"` sanan "pekka".
 
 Esimerkiksi kuvan metsästä voisi tehdä vaikka näin::
 
@@ -53,8 +70,8 @@ Esimerkiksi kuvan metsästä voisi tehdä vaikka näin::
 
 .. image:: _static/vaalea-metsa.png
 
-Nyt jos vaikka kuusien väriä haluaisi muuttaa,
-tarvitsee muutos tehdä vain yhteen paikkaan::
+Nyt jos kuusien väriä halutaan muuttaa,
+tarvitsee muutos tehdä vain vakion määritelmään::
 
     (define latva
       (overlay/align/offset
@@ -64,3 +81,8 @@ tarvitsee muutos tehdä vain yhteen paikkaan::
        (triangle 30 "solid" "darkgreen")))
 
 .. image:: _static/tumma-metsa.png
+
+.. admonition:: Tehtävä
+
+    Piirrä lehtipuu, anna sille nimi, ja piirrä metsä jossa on sekä
+    kuusia, että lehtipuita.
