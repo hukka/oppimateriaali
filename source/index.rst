@@ -61,6 +61,25 @@ Ohjelmoinnin sovelluksia
    lukujonot
 
 
+.. todo::
+
+    Piirtokomentojen kertauskappale, jossa selitetään ainakin overlay/xy:n ja overlay/offsetin ero.
+
+.. todo::
+
+    Linkit kappaleen alkuun esitietovaatimuksiin ja niiden kertauksiin.
+
+.. todo::
+
+    Ongelmanratkaisukappale, virheen etsintä
+    "Open parenthesis" on alkava sulku, ei "ylimääräinen avoin sulku"
+
+    Funktion määritelmä, josta puuttuu ensimmäiset sulut (vakion määritelmä)
+
+.. todo::
+
+    Kellotaulutehtävä
+
 .. todo:: Tehtäville voisi luoda oman komennon, jotta niistä saa oman listauksen
 
 .. todo:: Minne mallivastaukset?
