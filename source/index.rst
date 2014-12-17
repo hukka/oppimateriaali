@@ -9,6 +9,7 @@ Ohjelmoinnin ydinaiheita
    :maxdepth: 1
 
    sanasto
+   virheiden_korjaamista
    miksi-koodata
    miksi_opettaa_talla
    ops2016
@@ -68,13 +69,6 @@ Ohjelmoinnin sovelluksia
 .. todo::
 
     Linkit kappaleen alkuun esitietovaatimuksiin ja niiden kertauksiin.
-
-.. todo::
-
-    Ongelmanratkaisukappale, virheen etsintä
-    "Open parenthesis" on alkava sulku, ei "ylimääräinen avoin sulku"
-
-    Funktion määritelmä, josta puuttuu ensimmäiset sulut (vakion määritelmä)
 
 .. todo::
 
