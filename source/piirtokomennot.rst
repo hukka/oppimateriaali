@@ -1,5 +1,7 @@
 Piirtokomennot
 ==============
+Tätä kappaletta varten täytyy ensin lukea :doc:`laskujarjestys`.
+
 Jotta Racketillä voisi piirtää omia kuvia, ohjelman täytyy
 ladata käyttöön uusi :term:`kirjasto` kirjoittamalla yläruutuun::
 

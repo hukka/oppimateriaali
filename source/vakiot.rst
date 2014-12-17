@@ -1,5 +1,7 @@
 Vakiot
 ======
+Tätä kappaletta varten täytyy ensin lukea :doc:`piirtokomennot`.
+
 Racketissä on mahdollista antaa nimiä eri arvoille.
 Tämä vähentää toistoa, jos arvo on laskettu pitkällä ja monimutkaisella
 funktiokutsulla.

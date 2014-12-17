@@ -1,5 +1,8 @@
 Omat funktiot
 =============
+Tätä kappaletta varten täytyy ensin lukea :doc:`vakiot`.
+
+
 Omat funktiot määritellään vakioiden tapaan kirjoittamalla
 
 ::

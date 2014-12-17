@@ -1,5 +1,6 @@
 Laskujärjestys
 ==============
+Tätä kappaletta varten täytyy ensin lukea :doc:`perusasiat`.
 
 Peruslaskut Racketillä
 ----------------------
