@@ -2,22 +2,38 @@ Yläkoulun ohjelmointia!
 =======================
 :ref:`genindex`
 
-Ohjelmoinnin ydinaiheita
-------------------------
+Valmiit oppitunnit
+------------------
 
 .. toctree::
    :maxdepth: 1
 
-   sanasto
-   virheiden_korjaamista
-   miksi-koodata
-   miksi_opettaa_talla
-   ops2016
    perusasiat
    laskujarjestys
+   piirtokomennot
    vakiot
    omat_funktiot
    ehtolauseet
+
+Taustaa
+-------
+
+.. toctree::
+   :maxdepth: 1
+
+   miksi-koodata
+   miksi_opettaa_talla
+   ops2016
+
+Keskeneräiset aiheet
+--------------------
+
+.. toctree::
+   :maxdepth: 1
+
+
+   sanasto
+   virheiden_korjaamista
    funktioiden_suunnittelu
    animaatiot-1
    structit
@@ -30,24 +46,12 @@ Ohjelmoinnin ydinaiheita
    muuttujat_ja_silmukat
    sivuvaikutukset
    algoritmien_vaativuus
-
-Ohjelmoinnin valinnaisia aiheita
---------------------------------
-.. toctree::
-
    tiedostot-1
    tiedostot-2
    tietotyypit
    liukuluvut
    tietokoneen_rakenne
    tietoverkot
-
-
-Ohjelmoinnin sovelluksia
-------------------------
-
-.. toctree::
-
    piirtokomennot
    sektorit
    animaatiot-2
@@ -60,6 +64,54 @@ Ohjelmoinnin sovelluksia
    dataa-netista
    funktion_kuvaajat
    lukujonot
+
+
+Ohjelmoinnin ydinaiheita
+------------------------
+- :doc:`sanasto`
+- :doc:`virheiden_korjaamista`
+- :doc:`perusasiat`
+- :doc:`laskujarjestys`
+- :doc:`vakiot`
+- :doc:`omat_funktiot`
+- :doc:`ehtolauseet`
+- :doc:`funktioiden_suunnittelu`
+- :doc:`animaatiot-1`
+- :doc:`structit`
+- :doc:`interaktiivisuus`
+- :doc:`listat_ja_rekursio`
+- :doc:`algoritmit`
+- :doc:`lambda_ja_funktiot_parametreina`
+- :doc:`puut_ja_graafit`
+- :doc:`paikalliset_maaritelmat`
+- :doc:`muuttujat_ja_silmukat`
+- :doc:`sivuvaikutukset`
+- :doc:`algoritmien_vaativuus`
+
+Ohjelmoinnin valinnaisia aiheita
+--------------------------------
+- :doc:`tiedostot-1`
+- :doc:`tiedostot-2`
+- :doc:`tietotyypit`
+- :doc:`liukuluvut`
+- :doc:`tietokoneen_rakenne`
+- :doc:`tietoverkot`
+
+
+Ohjelmoinnin sovelluksia
+------------------------
+- :doc:`piirtokomennot`
+- :doc:`sektorit`
+- :doc:`animaatiot-2`
+- :doc:`animaatiot-3`
+- :doc:`turtles`
+- :doc:`ympyrä`
+- :doc:`musiikkia`
+- :doc:`salasanat`
+- :doc:`alkuluvut`
+- :doc:`dataa-netista`
+- :doc:`funktion_kuvaajat`
+- :doc:`lukujonot`
 
 
 .. todo::
